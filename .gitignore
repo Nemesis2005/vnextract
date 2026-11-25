@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+
+# Qwen3.5 tokenizer assets: download locally (see README)
+tools/dataset/qwen35_9b_tokenizer/
+
+# never commit game files or anything extracted from them.
+# games/ (per-game profiles, character configs, annotations, notes) and skills/ (workflow notes with
+# worked examples) are kept locally next to the tools but contain game-derived content.
+/games/
+/skills/
+*.hcb
+*.bin
+*.iso
+*.mds
+*.wav
+*.ogg
+*.png
+/Extracted/
+/script/
+/dataset/
+/sprites/
+/listen/
+/label_sheets/
